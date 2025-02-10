@@ -1,0 +1,246 @@
+/* * {
+    border: 1px red solid;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color:#5990a8;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.main .cookie {
+    background-color: #5990a8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+.main .cookie img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.25s;
+    /* padding: 71% 0 71% 0; */
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.image.active img{
+    transform: scale(0.8);
+}
+
+.main .cookie input {
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.main .cookie .image {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .cookie a {
+    padding: 10px;
+}
+
+.main .add {
+    text-align: center;
+    margin-bottom: 1%;
+    border-left: 2px #000000 solid;
+    /* background-image: url(./images/bg2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+    border-left: 2px #000000 solid;
+    background-image: url(./images/wood.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.buttons {
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.boutique {
+  text-align: center;
+  background: linear-gradient(#000000, #6767677f);
+  color: white;
+  border: 2px #000000 solid;
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+}
+
+.main .container .buttons button {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  padding: 20px;
+  border-bottom: 1px rgba(99, 99, 99, 0.651) solid;
+  align-items: center;
+  box-shadow: 10px 10px 10px black;
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.main .container .buttons button p{
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.main .container .buttons button img{
+  width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #2222229c);
+  filter: drop-shadow(5px 5px 5px #2222229c);
+}
+
+.case-title {
+  background-image: url(./images/grass.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px #000000 solid;
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+}
+
+.add .conter .case {
+  display: none;
+  padding: 10%;
+  background-color: aqua;
+  align-items: center;
+  gap: 10px;
+  border: 1px black solid;
+}
+
+.add .conter .case img{
+  width: 10%;
+}
+
+#add2 {
+  background-color: bisque;
+}
+
+#add2:hover {
+  background-color: rgb(255, 216, 169);
+}
+
+#add3 {
+  background-color: rgb(254, 193, 119);
+}
+
+#add3:hover {
+  background-color: rgb(255, 185, 100);
+}
+
+#add4 {
+  background-color:coral;
+}
+
+#add4:hover {
+  background-color:rgb(255, 113, 61);
+}
+
+#levelup {
+    background: url(./images/stonetxt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+
+#levelup:hover {
+      filter: contrast(1.3);
+}
+
+
+@media (max-width: 768px) {
+    
+    body {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .main .cookie {
+        padding: 0;
+    }
+
+    .content {
+      height:30vh;
+    }
+    h1 {
+      font-size:24px;
+    }
+
+    .main .cookie img {
+      padding: 50% 0 50% 0;
+    }
+}
+
+#power1{
+  font-size: 20px;
+}
+#power2{
+  font-size: 20px;
+}
+#power3{
+  font-size: 20px;
+}
+#power4{
+  font-size: 20px;
+}
