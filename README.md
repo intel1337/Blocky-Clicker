@@ -1,8 +1,8 @@
 <h1 align="center">Blocky Clicker</h1>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a07fa8f0-3bef-41f7-a1cd-aa433b95f0ba
-">
+![icon](https://github.com/user-attachments/assets/342a2459-631f-4be2-828a-2be3c8c51338)
+
   <br>
   <em>Blocky Clicker is a simple and lightweight clicking game.
     </em>
