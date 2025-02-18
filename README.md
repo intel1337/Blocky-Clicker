@@ -32,3 +32,31 @@
 
 ![icon](https://github.com/user-attachments/assets/e8cd6153-77d7-4aea-9910-6e098bf1982a)
 
+
+# Play 
+
+## Requirements
+
+Full Node Environement :
+
+-npx
+-nvm
+-node
+-npm
+
+## Packages and depedencies
+-electron
+
+## Start
+Open a terminal 
+
+```bash
+npm i
+```
+
+```bash
+npm run start
+```
+
+
+
