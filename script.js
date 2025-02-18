@@ -1,8 +1,3 @@
-// GAME CODE : COOKIE CLICKER
-// LANGAGE : JAVASCRIPT
-// LANGUE : FRANCAIS ANGLAIS / FR / EN (0 IA UTILISEE ON EST JUSTE BILINGUE)
-
-
 //  🗒️ - Constantes du Code : 
 
 
@@ -11,19 +6,19 @@ const countDiv = document.getElementById('count');
 const secDiv = document.getElementById('sec');
 const block = document.getElementById('block');
 //nombre de tools
-const nbr1 = document.querySelector("#nbr1");
-const nbr2 = document.querySelector("#nbr2");
-const nbr3 = document.querySelector("#nbr3");
-const nbr4 = document.querySelector("#nbr4");
+const shovelCount = document.querySelector("#nbr1");
+const axeCount = document.querySelector("#nbr2");
+const pickaxeCount = document.querySelector("#nbr3");
+const swordCount = document.querySelector("#nbr4");
 //notifs
-const notif = document.querySelector(".notifications");
-const notif2 = document.querySelector(".tools");
+const pushNotifNoMoney = document.querySelector(".notifications");
+const pushNotifNoTools = document.querySelector(".tools");
 
 // Text :
-const text1 = document.getElementById('text1');
-const text2 = document.getElementById('text2');
-const text3 = document.getElementById('text3');
-const text4 = document.getElementById('text4');
+const shovelPerSec = document.getElementById('text1');
+const axePerSec = document.getElementById('text2');
+const pickaxePerSec = document.getElementById('text3');
+const swordPerSec = document.getElementById('text4');
 // Text Power
 const power1 = document.getElementById('power1');
 const power2 = document.getElementById('power2');
@@ -53,11 +48,9 @@ const cookieTitleCount = " Cookies - Cookie-Cliker";
 const cookieNone = "Cookies : none";
 // ----------------------------------------\\
 
-
 // -------Variables Objets et Class-------------\\
 
 // Amélioration Outils prix
-
 let shovelPrice = 50;
 let axePrice = 250; 
 let pickaxePrice = 1500; 
@@ -76,13 +69,11 @@ let mine2Price = 24000000;
 let filonMinePrice = 48000000;
 let netherPrice= 1000000000;
 
-
 // Boolean Activé ou non pour les améliorations
 let shovel = false;
 let axe = false;
 let pickaxe = false;
 let sword = false;
-
 
 // Boolean pour les mondes : 
 // let forestBool = false;
@@ -99,22 +90,13 @@ let toolsCount = {
     pickaxe:0,
     sword:0,
 }
-
-
 // ----------------------------------------\\
-
 
 // ------Variables Globales----------\\
 let count = 0; // COMPTEUR DES COOKIES
 let sec = 0; // COMPTEUR DES COOKIES PAR SECONDES 
 let interval; // Variable Interval
-
-
 // --- Fonctions GagneTemps --- \\
-
- // VISUEL
-
-
 function updateAddCookie(nombre=0) { // Ajoute un Nombre de Cookie et Update le compteur
     let displayCount;
     count+=nombre;
@@ -136,7 +118,7 @@ function updateAddCookie(nombre=0) { // Ajoute un Nombre de Cookie et Update le 
     saveProgression();
 }
 
-function updateRmCookie(nombre){ // Enleve un Nombre de Cookie et Update le compteur
+function updateRmCookie(nombre=0){ // Enleve un Nombre de Cookie et Update le compteur
     let displayCount;
     count-=nombre;
     if (count >= 1000000000) { // MILLIARDS
@@ -230,10 +212,10 @@ function updateTools(){ // UPDATE TOOLS VISUAL
     block.setAttribute("src", "./images/stone.png")
 }
 function updatePrice(){ // UPDATE PRICE OF TOOLS
-    text1.innerText = shovelPrice;
-    text2.innerText = axePrice;
+    shovelPerSec.innerText = shovelPrice;
+    axePerSec.innerText = axePrice;
     text3.innerText = pickaxePrice;
-    text4.innerText = swordPrice;
+    swordPerSec.innerText = swordPrice;
 }
 function updatePower(){ // UPDATE POWER OF TOOLS /S
     power1.innerText = shovelPower + secTitle;
@@ -242,16 +224,16 @@ function updatePower(){ // UPDATE POWER OF TOOLS /S
     power4.innerText = swordPower + secTitle;
 }
 function updateNbr1(){
-    nbr1.innerText = toolsCount.shovel;
+    shovelCount.innerText = toolsCount.shovel;
 }
 function updateNbr2(){
-    nbr2.innerText = toolsCount.axe;
+    axeCount.innerText = toolsCount.axe;
 }
 function updateNbr3(){
-    nbr3.innerText = toolsCount.pickaxe;
+    pickaxeCount.innerText = toolsCount.pickaxe;
 }
 function updateNbr4(){
-    nbr4.innerText = toolsCount.sword;
+    swordCount.innerText = toolsCount.sword;
 }
 
 function saveProgression() { // SAVE LA PROGRESSION ⛔️⛔️⛔️⛔️⛔️⛔️⛔️⛔️⛔️ A ENCAPSULER  // JSON
@@ -343,17 +325,17 @@ function loadSave() { // LOAD SAUVEGARDE ⛔️⛔️⛔️⛔️⛔️⛔️⛔
 }
 
 function notifications1(){
-    notif.classList.add("active");
+    pushNotifNoMoney.classList.add("active");
     setTimeout(() => {
-        notif.classList.remove("active");
+        pushNotifNoMoney.classList.remove("active");
       }, "2000");
       
 }
 
 function notifications2(){
-    notif2.classList.add("active");
+    pushNotifNoTools.classList.add("active");
     setTimeout(() => {
-        notif2.classList.remove("active");
+        pushNotifNoTools.classList.remove("active");
       }, "2000");
 }
 
