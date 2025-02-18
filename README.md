@@ -95,6 +95,11 @@ electron : v32.2.8,
 electron-installer : 1.0.3
 ```
 # Technologies :
--NodeJS
-- 
+Runtime :
+- NodeJS
+  
+Framework :
+- Electron
+
+
 
