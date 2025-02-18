@@ -112,11 +112,7 @@ Misc :
 
 # Diagrams :
 
-[![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=intel1337)](https://wakatime.com/)
-
-https://api.github.com/repos/your-username/your-repo/languages
-
-
+### Overview :
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
 
 
