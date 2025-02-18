@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "package-mac": "electron-packager . BlockyClicker --platform=darwin --arch=x64 --icon=images/icon.icns --out=dist --overwrite",
-    "create-dmg": "electron-installer-dmg dist/BlockyClicker-darwin-x64/BlockyClicker.app BlockyClicker --out=dist --icon=images/icon.icns --overwrite"
+    "create-dmg": "electron-installer-dmg dist/BlockyClicker-darwin-x64/BlockyClicker.app BlockyClicker --out=dist --icon=images/icon.icns --overwrite",
+    "start": "node electron ."
   },
   "build": {
     "appId": "com.intel1337.blockyclicker",
