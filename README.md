@@ -107,6 +107,10 @@ Misc :
 - Gitdiagram
 
 # Diagrams :
+![GitHub language count](https://img.shields.io/github/languages/count/intel1337/Blocky-Clicker)
+![GitHub top language](https://img.shields.io/github/languages/top/intel1337/Blocky-Clicker)
+
+
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
 
 
