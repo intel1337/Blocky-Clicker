@@ -103,5 +103,10 @@ Framework :
 - Electron Packager
 - Electron Installer
 
+Misc : 
+- Gitdiagram
+
+
+
 
 
