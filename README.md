@@ -17,9 +17,9 @@
 <p align="center">
   <a href="CONTRIBUTING.md">Contributing Guidelines</a>
   ·
-  <a href="https://github.com/intel1337/kiwi/issues">Submit an Issue</a>
+  <a href="https://github.com/intel1337/Blocky-Clicker/issues">Submit an Issue</a>
   ·
-  <a href="https://kiwiframework.dev/doc">Documentation</a>
+  <a href="https://github.com/intel1337/Blocky-Clicker/wiki">Documentation</a>
   <br>
   <br>
 </p>
