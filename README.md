@@ -27,13 +27,17 @@
 <p align="center">
   <a href="https://github.com/intel1337/Blocky-Clicker/releases">
     <img src="https://img.shields.io/badge/Get-BlockyClicker.-brown" alt="Blocky Clcker" />
+    
   </a>&nbsp;
 </p>
 
 ![icon](https://github.com/user-attachments/assets/e8cd6153-77d7-4aea-9910-6e098bf1982a)
 
 
+
 # Requirements
+![GitHub language count](https://img.shields.io/github/languages/count/intel1337/Blocky-Clicker)
+![GitHub top language](https://img.shields.io/github/languages/top/intel1337/Blocky-Clicker)
 
 Full Node Environement :
 
@@ -107,8 +111,7 @@ Misc :
 - Gitdiagram
 
 # Diagrams :
-![GitHub language count](https://img.shields.io/github/languages/count/intel1337/Blocky-Clicker)
-![GitHub top language](https://img.shields.io/github/languages/top/intel1337/Blocky-Clicker)
+
 
 
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
