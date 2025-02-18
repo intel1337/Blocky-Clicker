@@ -100,6 +100,8 @@ Runtime :
   
 Framework :
 - Electron
+- Electron Packager
+- Electron Installer
 
 
 
