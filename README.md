@@ -87,4 +87,7 @@ npm : 10.8.2
 electron : v32.2.8,
 electron-installer : 1.0.3
 ```
+# Technologies :
+-NodeJS
+- 
 
