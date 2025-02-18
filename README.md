@@ -67,7 +67,7 @@ Engine : V8
 Runtime : NodeJS
 --
 Browser : Safari Latest 18/02/2025
-Engine : V8
+Engine : Nitro
 ```
 Machine :
 ```bash
