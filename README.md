@@ -49,11 +49,18 @@ Full Node Environement :
 Open a terminal 
 
 ```bash
+git clone https://github.com/intel1337/Blocky-Clicker.git
+```
+```bash
+cd Blocky-Clicker
+```
+
+```bash
 npm i
 ```
 
 ```bash
-npm run start
+npx electron .
 ```
 
 # Stack
