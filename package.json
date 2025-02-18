@@ -1,0 +1,24 @@
+{
+  "name": "blocky-clicker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "package-mac": "electron-packager . BlockyClicker --platform=darwin --arch=x64 --icon=images/icon.icns --out=dist --overwrite",
+    "create-dmg": "electron-installer-dmg dist/BlockyClicker-darwin-x64/BlockyClicker.app BlockyClicker --out=dist --icon=images/icon.icns --overwrite"
+  },
+  "build": {
+    "appId": "com.intel1337.blockyclicker",
+    "productName": "Blocky Clicker",
+    "mac": {
+      "target": "dmg",
+      "icon": "images/icon.icns"
+    }
+  },
+  "author": "intel1337 & este0207",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "electron": "^34.2.0",
+    "electron-installer-dmg": "^5.0.1"
+  }
+}
