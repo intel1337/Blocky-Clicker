@@ -33,6 +33,28 @@
 
 ![icon](https://github.com/user-attachments/assets/e8cd6153-77d7-4aea-9910-6e098bf1982a)
 
+# Credits :
+
+### Lead Front Developper
+[Este0207](https://github.com/este0207)
+
+- Boss Fight Back & Front End
+- Full FrontEnd, HTML CSS and Responsive Design
+- Base Game's Code and Idea
+- Meta and Game Balance Director
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=intel1337&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+  
+
+### Lead Back Developper
+[intel1337](https://github.com/intel1337)
+
+- Game Reactivity and Front End Visual Updates
+- Web Design and Artistic Direction
+- Full JS Back End & Game Engine
+- Versioning and Commisions 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=este0207&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
+
 
 
 # Requirements
@@ -79,6 +101,8 @@ Runtime : NodeJS
 --
 Browser : Safari Latest 18/02/2025
 Engine : Nitro
+--
+Versioning : git && github
 ```
 Machine :
 ```bash
@@ -106,6 +130,7 @@ Framework :
 - Electron
 - Electron Packager
 - Electron Installer
+- Minecraft CSS Framework
 
 Misc : 
 - Gitdiagram
