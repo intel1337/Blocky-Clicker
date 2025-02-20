@@ -42,7 +42,8 @@
 - Full FrontEnd, HTML CSS and Responsive Design
 - Base Game's Code and Idea
 - Meta and Game Balance Director
-> [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=intel1337&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+> [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=este0207&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
   
 
 ### Lead Back Developper :
@@ -51,8 +52,9 @@
 - Game Reactivity and Front End Visual Updates
 - Web Design and Artistic Direction
 - Full JS Back End & Game Engine
-- Versioning and Commisions 
-> [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=este0207&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+- Versioning and Commisions
+> [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=intel1337&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 
