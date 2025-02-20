@@ -115,47 +115,6 @@ Misc :
 ### Overview :
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
 
-## Algorigrams :
-### updateAddCookie()
-![Diagramme sans nom drawio](https://github.com/user-attachments/assets/baac38d8-befd-4d35-9fee-b0e631b7f8c0)
-
-### updateRmCookie()
-![Diagramme sans nom drawio (1)](https://github.com/user-attachments/assets/717254d9-5c6b-4b71-9827-d280a6d10116)
-
-### updateBackground()
-![Diagramme sans nom drawio (2)](https://github.com/user-attachments/assets/2b549c8a-cf44-4185-903d-64d3c769b152)
-
-### update2()
-![Diagramme sans nom drawio (3)](https://github.com/user-attachments/assets/8b44b4b3-9841-4bf7-918e-d42ca8b1c75d)
-
-### update3()
-![Diagramme sans nom drawio (4)](https://github.com/user-attachments/assets/79126164-bb15-445d-aeaa-3521bce2787d)
-
-### update4()
-![Diagramme sans nom drawio (5)](https://github.com/user-attachments/assets/772019e4-0bee-4e7b-b0cd-cf4c99fc7c1c)
-
-### update5()
-![Diagramme sans nom drawio (6)](https://github.com/user-attachments/assets/420e7843-0dd6-42da-8e79-e3f2c4e01566)
-
-### updateTools()
-![Diagramme sans nom drawio (7)](https://github.com/user-attachments/assets/a452c31a-0dd1-43ea-9ee8-dbe568ed5450)
-
-### updatePrice()
-![Diagramme sans nom drawio (8)](https://github.com/user-attachments/assets/5844c64c-7cb7-4e40-b433-046d4bd35be9)
-
-### updatePower()
-![Diagramme sans nom drawio (10)](https://github.com/user-attachments/assets/605a951f-a587-4ae7-8389-90cae5c0dca9)
-
-### updateNbr()
-![Diagramme sans nom drawio (11)](https://github.com/user-attachments/assets/865305da-dc08-4478-b36d-9342dce5f39c)
-
-### saveProgression()
-![Diagramme sans nom drawio (12)](https://github.com/user-attachments/assets/5bc7e316-4459-45fc-adfe-eaeba96b4431)
-
-### loadSave()
-![Diagramme sans nom drawio (13)](https://github.com/user-attachments/assets/607da797-dcd9-4e7f-aa47-7e2c8c97921e)
-
-### 
 
 
 
