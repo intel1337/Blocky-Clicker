@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="CONTRIBUTING.md">Contributing Guidelines</a>
+  <a href="LICENSE">Terms of Service</a>
   ·
   <a href="https://github.com/intel1337/Blocky-Clicker/issues">Submit an Issue</a>
   ·
