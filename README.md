@@ -152,6 +152,11 @@ Misc :
 ### saveProgression()
 ![Diagramme sans nom drawio (12)](https://github.com/user-attachments/assets/5bc7e316-4459-45fc-adfe-eaeba96b4431)
 
+### loadSave()
+![Diagramme sans nom drawio (13)](https://github.com/user-attachments/assets/607da797-dcd9-4e7f-aa47-7e2c8c97921e)
+
+### 
+
 
 
 
