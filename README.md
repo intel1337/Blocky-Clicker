@@ -35,7 +35,7 @@
 
 # Credits :
 
-### Lead Front Developper
+### Lead Front Developper : 
 [Este0207](https://github.com/este0207)
 
 - Boss Fight Back & Front End
@@ -45,7 +45,7 @@
 > [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=intel1337&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
   
 
-### Lead Back Developper
+### Lead Back Developper :
 [intel1337](https://github.com/intel1337)
 
 - Game Reactivity and Front End Visual Updates
@@ -137,8 +137,12 @@ Misc :
 
 # Diagrams :
 
-### Overview :
+## GitDiagram :
+
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
+
+## Algorigrams
+![Algorigrams](https://github.com/intel1337/Blocky-Clicker/wiki)
 
 
 
