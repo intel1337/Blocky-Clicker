@@ -111,6 +111,12 @@ Engine : Nitro
 Dev Server : php developpement server
 Production Server : Apache2 / Nginx Server
 Versioning : git && github
+-- IDE
+Visual Studio Code
+-- Languages :
+HTML5
+CSS3
+JS6
 ```
 Machine :
 ```bash
@@ -142,6 +148,17 @@ Framework :
 
 Misc : 
 - Gitdiagram
+## Why Them ?
+- NodeJs is the perfect Javascript runtime to use for our heavy Client and App
+- Since Electron or Cap isnt available on Deno We chose NodeJS
+- Why Electron ? Electron is fast, Lightweight, Simple to use And perfect for our needs
+- This application is local focused so electron / a heavy client is what we needed the most
+- We can Add that a WebBrowser has it's limits, Event if Electron runs on an image of Chromium with V8
+- It's way more close to the machine and optimized for High UI Updates and massive numbers
+- Same thing for capacitor, Really easy to use for IOS and Android
+- No need to use Swift or Xcode tools for Ios App and No Kotlin, or Dart for Android
+- GitDiagram for A proffessional Overview of the Repository
+  
 
 
 # Sources :
@@ -155,6 +172,7 @@ Misc :
 - https://www.electronjs.org
 - https://nodejs.org/en
 - https://git-scm.com
+- https://capacitorjs.com
 
 # Build your Own :
 ### Install Electron Build
