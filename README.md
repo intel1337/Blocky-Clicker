@@ -267,6 +267,8 @@ npx cap open ios
 ![Algorigrams](https://github.com/intel1337/Blocky-Clicker/wiki)
 
 
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/b9d13d08-ea7c-43fb-be25-a26dd2898ba8" />
+
 
 
 
