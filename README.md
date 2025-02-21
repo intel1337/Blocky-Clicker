@@ -62,19 +62,23 @@
 # Requirements
 ![GitHub language count](https://img.shields.io/github/languages/count/intel1337/Blocky-Clicker)
 ![GitHub top language](https://img.shields.io/github/languages/top/intel1337/Blocky-Clicker)
+### Full Node Environement :
+![img](https://img.shields.io/badge/Package:-npx-green)
+![img](https://img.shields.io/badge/Runtime:-node-green)
+![img](https://img.shields.io/badge/Version:-nvm-green)
+![img](https://img.shields.io/badge/PackageManager:-npm-green)
 
-Full Node Environement :
 
--npx
--nvm
--node
--npm
+
 
 ## Packages and depedencies
--electron
+![img](https://img.shields.io/badge/Framework:-Electron-blue)
+![img](https://img.shields.io/badge/Electron:-Packager-blue)
+![img](https://img.shields.io/badge/Electron:-Forge-blue)
+![img](https://img.shields.io/badge/Electron:-Installer-blue)
 
 ## Start
-Open a terminal 
+Open a shell 
 
 ```bash
 git clone https://github.com/intel1337/Blocky-Clicker.git
@@ -146,6 +150,9 @@ Misc :
 - https://openai.com/index/dall-e-3/
 - https://app.diagrams.net
 - https://stackoverflow.com/questions
+- https://www.electronjs.org
+- https://nodejs.org/en
+- https://git-scm.com
 
 # Diagrams :
 
