@@ -80,18 +80,18 @@
 ## Start
 Open a shell 
 
-```bash
+```git
 git clone https://github.com/intel1337/Blocky-Clicker.git
 ```
 ```bash
 cd Blocky-Clicker
 ```
 
-```bash
+```node
 npm i
 ```
 
-```bash
+```node
 npx electron .
 ```
 
@@ -154,6 +154,32 @@ Misc :
 - https://nodejs.org/en
 - https://git-scm.com
 
+# Build your Own :
+### Install Electron Build
+
+```node
+npm install electron --save-dev
+npm install electron-builder --save-dev
+```
+### MacOS Build Cross
+```node
+npx electron-builder --mac --icon=images/icon.icns
+```
+### Linux Systems Build
+```node
+npx electron-builder --linux --icon=images/icon.webp
+```
+> If icon Doesn't work, try to convert icon.webp to icon.png then run this :
+```node
+npx electron-builder --linux --icon=images/icon.png
+```
+### Windows Build Cross
+```node
+npx electron-builder --win --icon=images/icon.ico
+```
+
+
+
 # Diagrams :
 
 ## GitDiagram :
@@ -161,6 +187,28 @@ Misc :
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
 
 ## Wanted Architecture (Beta 1.0.0)
+```bash
+├───core
+│   └───model
+└───public
+    ├───images
+    └───src
+        ├───model
+        │   ├───tools
+        │   │   └───class
+        │   └───worlds
+        │       └───class
+        ├───scope
+        │   ├───constants
+        │   └───global
+        ├───service
+        │   ├───cookies
+        │   └───game
+        └───view
+            ├───components
+            └───ui
+                └───update
+```
 ![diagram](https://github.com/user-attachments/assets/9ceb2534-cf0d-4707-850a-1c17200b6e31)
 
 
