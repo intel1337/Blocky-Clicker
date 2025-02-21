@@ -158,12 +158,18 @@ Misc :
 - Same thing for capacitor, Really easy to use for IOS and Android
 - No need to use Swift or Xcode tools for Ios App and No Kotlin, or Dart for Android
 - GitDiagram for A proffessional Overview of the Repository
+
+## To Change or Add ?
+- The infrastructure of the code is terrible, OOP would make us gain a lot of time
+- Unfortunately it's a school Project, meaning that we had a deadline.
+- A Beta Version of the Wanted Infrastructure is available in the Diagram Section of this README
+- We will probably add features and balance the game in the future
   
 
 
-# Sources :
+# Thanks to & Sources :
 - https://legend077.github.io/framework-docs/
-- https://legend077.github.io/framework-docs/
+- https://jsr.io/@denoelectron/newtron
 - https://choosealicense.com/licenses/mit/#
 - https://developer.mozilla.org/en-US/docs/Web/API/
 - https://openai.com/index/dall-e-3/
