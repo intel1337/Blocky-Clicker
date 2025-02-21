@@ -137,11 +137,25 @@ Framework :
 Misc : 
 - Gitdiagram
 
+
+# Sources :
+- https://legend077.github.io/framework-docs/
+- https://legend077.github.io/framework-docs/
+- https://choosealicense.com/licenses/mit/#
+- https://developer.mozilla.org/en-US/docs/Web/API/
+- https://openai.com/index/dall-e-3/
+- https://app.diagrams.net
+- https://stackoverflow.com/questions
+
 # Diagrams :
 
 ## GitDiagram :
 
 ![diagram-6](https://github.com/user-attachments/assets/ab39e96d-36be-4892-ab6e-1def8f788b95)
+
+## Wanted Architecture (Beta 1.0.0)
+![diagram](https://github.com/user-attachments/assets/9ceb2534-cf0d-4707-850a-1c17200b6e31)
+
 
 ## Algorigrams
 ![Algorigrams](https://github.com/intel1337/Blocky-Clicker/wiki)
