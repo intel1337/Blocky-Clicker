@@ -148,38 +148,6 @@ Framework :
 
 Misc : 
 - Gitdiagram
-## Why Them ?
-- NodeJs is the perfect Javascript runtime to use for our heavy Client and App
-- Since Electron or Cap isnt available on Deno We chose NodeJS
-- Why Electron ? Electron is fast, Lightweight, Simple to use And perfect for our needs
-- This application is local focused so electron / a heavy client is what we needed the most
-- We can Add that a WebBrowser has it's limits, Event if Electron runs on an image of Chromium with V8
-- It's way more close to the machine and optimized for High UI Updates and massive numbers
-- Same thing for capacitor, Really easy to use for IOS and Android
-- No need to use Swift or Xcode tools for Ios App and No Kotlin, or Dart for Android
-- GitDiagram for A proffessional Overview of the Repository
-
-## To Change or Add ?
-- The infrastructure of the code is terrible, OOP would make us gain a lot of time
-- Unfortunately it's a school Project, meaning that we had a deadline.
-- A Beta Version of the Wanted Infrastructure is available in the Diagram Section of this README
-- We will probably add features and balance the game in the future
-  
-
-
-# Thanks to & Sources :
-- https://legend077.github.io/framework-docs/
-- https://jsr.io/@denoelectron/newtron
-- https://choosealicense.com/licenses/mit/#
-- https://developer.mozilla.org/en-US/docs/Web/API/
-- https://openai.com/index/dall-e-3/
-- https://app.diagrams.net
-- https://stackoverflow.com/questions
-- https://www.electronjs.org
-- https://nodejs.org/en
-- https://git-scm.com
-- https://capacitorjs.com
-
 # Build your Own :
 ### Install Electron Build
 
@@ -230,6 +198,37 @@ npx cap build ios --prod
 npx cap open ios
 ```
 
+## Why Them ?
+- NodeJs is the perfect Javascript runtime to use for our heavy Client and App
+- Since Electron or Cap isnt available on Deno We chose NodeJS
+- Why Electron ? Electron is fast, Lightweight, Simple to use And perfect for our needs
+- This application is local focused so electron / a heavy client is what we needed the most
+- We can Add that a WebBrowser has it's limits, Event if Electron runs on an image of Chromium with V8
+- It's way more close to the machine and optimized for High UI Updates and massive numbers
+- Same thing for capacitor, Really easy to use for IOS and Android
+- No need to use Swift or Xcode tools for Ios App and No Kotlin, or Dart for Android
+- GitDiagram for A proffessional Overview of the Repository
+
+## To Change or Add ?
+- The infrastructure of the code is terrible, OOP would make us gain a lot of time
+- Unfortunately it's a school Project, meaning that we had a deadline.
+- A Beta Version of the Wanted Infrastructure is available in the Diagram Section of this README
+- We will probably add features and balance the game in the future
+
+  
+
+# Thanks to & Sources :
+- https://legend077.github.io/framework-docs/
+- https://jsr.io/@denoelectron/newtron
+- https://choosealicense.com/licenses/mit/#
+- https://developer.mozilla.org/en-US/docs/Web/API/
+- https://openai.com/index/dall-e-3/
+- https://app.diagrams.net
+- https://stackoverflow.com/questions
+- https://www.electronjs.org
+- https://nodejs.org/en
+- https://git-scm.com
+- https://capacitorjs.com
 
 
 # Diagrams :
