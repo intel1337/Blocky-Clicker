@@ -108,6 +108,8 @@ Runtime : NodeJS
 Browser : Safari Latest 18/02/2025
 Engine : Nitro
 --
+Dev Server : php developpement server
+Production Server : Apache2 / Nginx Server
 Versioning : git && github
 ```
 Machine :
@@ -176,6 +178,32 @@ npx electron-builder --linux --icon=images/icon.png
 ### Windows Build Cross
 ```node
 npx electron-builder --win --icon=images/icon.ico
+```
+
+### Android Build
+> We Use capacitor and not Cordova or Electron for Android
+```bash
+npm init @capacitor/app
+npx cap add android
+npx cap copy
+npx cap build android --prod
+```
+> you can test the app first with Android Studio
+```bash
+npx cap open android
+```
+
+### IOS Build
+> We Use capacitor and not Cordova or Electron for IOS
+```bash
+npm init @capacitor/app
+npx cap add ios
+npx cap copy
+npx cap build ios --prod
+```
+> you can test the app first with Xcode On a Mac
+```bash
+npx cap open ios
 ```
 
 
